@@ -1,3 +1,4 @@
+## Python Version: 3.5.2
 ## For logistic regression with gradient descent:
 ### Train
 python3 logistic.py --train

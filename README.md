@@ -1,11 +1,15 @@
-# For logistic regression with gradient descent:
-## Train
+## For logistic regression with gradient descent:
+### Train
 python3 logistic.py --train
-## Infer
+### Infer
 python3 logistic.py --infer
+### More usage
+python3 logistic.py --help
 
-# For probabilistic generative model:
-## Train
+## For probabilistic generative model:
+### Train
 python3 generative.py --train
-## Infer
+### Infer
 python3 generative.py --infer
+### More usage
+python3 generative.py --help

@@ -64,7 +64,7 @@ def valid(w, b, X_valid, Y_valid):
 
 def train(X_all, Y_all, save_dir):
     # Using ADAGRAD or not
-    using_ADAGRAD = True
+    using_ADAGRAD = False
 
     # Split a 10%-validation set from the training set
     valid_set_percentage = 0.1
@@ -73,7 +73,7 @@ def train(X_all, Y_all, save_dir):
     # Initiallize parameter, hyperparameter
     w = np.zeros((106,))
     b = np.zeros((1,))
-    l_rate = 0.01
+    l_rate = 0.1
     batch_size = 32
     train_data_size = len(X_train)
     step_num = int(floor(train_data_size / batch_size))
